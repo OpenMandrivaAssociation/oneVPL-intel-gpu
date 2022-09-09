@@ -38,7 +38,7 @@ export VPL_BUILD_DEPENDENCIES="%{_prefix}"
 %make_build
 
 %install
-%cmake_install -C build
+%make_install -C build
 
 %files
 %license LICENSE
