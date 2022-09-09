@@ -35,10 +35,10 @@ export VPL_BUILD_DEPENDENCIES="%{_prefix}"
     -DCMAKE_BUILD_TYPE:STRING="Fedora" \
     -DMFX_ENABLE_AV1_VIDEO_DECODE:BOOL='ON' \
     -DMFX_ENABLE_AV1_VIDEO_ENCODE:BOOL='ON'
-%cmake_build
+%make_build
 
 %install
-%cmake_install
+%cmake_install -C build
 
 %files
 %license LICENSE
