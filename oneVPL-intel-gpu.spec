@@ -1,6 +1,6 @@
 Name:           oneVPL-intel-gpu
-Version:        22.6.0
-Release:        2
+Version:        23.2.2
+Release:        1
 Summary:        Intel oneVPL GPU Runtime
 License:        MIT
 URL:            https://www.intel.com/content/www/us/en/developer/tools/oneapi/onevpl.html
