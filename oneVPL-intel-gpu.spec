@@ -1,5 +1,5 @@
 Name:           oneVPL-intel-gpu
-Version:        23.3.1
+Version:        24.1.3
 Release:        1
 Summary:        Intel oneVPL GPU Runtime
 License:        MIT
