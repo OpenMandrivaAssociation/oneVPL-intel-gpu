@@ -45,7 +45,7 @@ export VPL_BUILD_DEPENDENCIES="%{_prefix}"
 %license LICENSE
 %doc README.md CONTRIBUTING.md
 %{_libdir}/libmfx-gen.so.1.2
-%{_libdir}/libmfx-gen.so.1.2.10
+%{_libdir}/libmfx-gen.so.1.2.11
 %dir %{_libdir}/libmfx-gen
 %{_libdir}/libmfx-gen/enctools.so
 
