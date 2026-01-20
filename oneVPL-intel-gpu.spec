@@ -1,5 +1,5 @@
 Name:           oneVPL-intel-gpu
-Version:        25.4.0
+Version:        26.1.0
 Release:        1
 Summary:        Intel oneVPL GPU Runtime
 License:        MIT
@@ -8,6 +8,7 @@ URL:            https://www.intel.com/content/www/us/en/developer/tools/oneapi/o
 Source0:        https://github.com/intel/vpl-gpu-rt/archive/refs/tags/intel-onevpl-%{version}/vpl-gpu-rt-intel-onevpl-%{version}.tar.gz
 
 BuildRequires:  cmake
+BuildRequires:  make
 BuildRequires:  pkgconfig(vpl)
 BuildRequires:  pkgconfig(libdrm) >= 2.4
 BuildRequires:  pkgconfig(libva) >= 1.12
