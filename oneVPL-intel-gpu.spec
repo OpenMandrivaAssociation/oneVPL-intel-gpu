@@ -1,5 +1,5 @@
 Name:           oneVPL-intel-gpu
-Version:        26.1.0
+Version:        26.3.0
 Release:        1
 Summary:        Intel oneVPL GPU Runtime
 License:        MIT
@@ -28,7 +28,7 @@ The %{name}-devel package contains libraries and header files for
 developing applications that use %{name}.
 
 %prep
-%autosetup -p1 -n vpl-gpu-rt-intel-onevpl-%{version}
+%autosetup -p1 -n vpl-gpu-rt-intel-onevpl-26.3.0
 
 %build
 export VPL_BUILD_DEPENDENCIES="%{_prefix}"
